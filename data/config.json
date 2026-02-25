@@ -1,0 +1,9 @@
+{
+    "api_key": "------------------------------------",
+    "destination_path":"\\\\venere\\Dati\\Contractgeek\\Importati",
+    "organization_id": "---",
+    "workspace_id": "0",
+    "endpoint": "https://api-demo.contractgeek.it",
+    "folder_path": "\\\\-----\\-----\\Contractgeek\\Import",
+    "file_log_path": "\\\\-----\\-----\\Contractgeek\\Log\\app.log"
+}

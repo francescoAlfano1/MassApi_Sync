@@ -1,0 +1,201 @@
+{
+  "final_clients": {
+    "58392010477": {
+      "record": {
+        "controparte_name": "FERRARI LORENZO",
+        "controparte_piva": "58392010477",
+        "controparte_cf": "FRRLNZ82C15H501U",
+        "controparte_city": "CASTELVERDE",
+        "controparte_address": "VIA DELLE MAGNOLIE 12",
+        "controparte_mail": "lorenzo.ferrari@example.com",
+        "controparte_pec": "lorenzo.ferrari@pecmail.it",
+        "controparte_phone": "0521123456",
+        "key": "58392010477"
+      },
+      "workspaces": [
+        "474"
+      ]
+    },
+    "10482950311": {
+      "record": {
+        "controparte_name": "OFFICINA RAPIDA SNC DI BIANCHI E ROSSI",
+        "controparte_piva": "10482950311",
+        "controparte_cf": "0000001048295031",
+        "controparte_city": "CARPI",
+        "controparte_address": "VIA DEL LAVORO 22",
+        "controparte_mail": "officina.rapida@example.com",
+        "controparte_pec": "officina.rapida@cert.cna.it",
+        "controparte_phone": "0535667788",
+        "key": "10482950311"
+      },
+      "workspaces": [
+        "486"
+      ]
+    },
+    "91234580321": {
+      "record": {
+        "controparte_name": "ROSSI GIULIANO",
+        "controparte_piva": "91234580321",
+        "controparte_cf": "RSSGLN70A01F205Z",
+        "controparte_city": "CASTELNUOVO MONTI",
+        "controparte_address": "VIA DELLE FONTI 8",
+        "controparte_mail": "giuliano.rossi@example.com",
+        "controparte_pec": "giuliano.rossi@legalmail.it",
+        "controparte_phone": null,
+        "key": "91234580321"
+      },
+      "workspaces": [
+        "476"
+      ]
+    },
+    "20994450322": {
+      "record": {
+        "controparte_name": "ALFA SERVICE SRL",
+        "controparte_piva": "20994450322",
+        "controparte_cf": "0000002099445032",
+        "controparte_city": "MODENA",
+        "controparte_address": "VIA EMILIA OVEST 101",
+        "controparte_mail": "info@alfaservice.com",
+        "controparte_pec": "alfa.service@pecmail.it",
+        "controparte_phone": "0598877665",
+        "key": "20994450322"
+      },
+      "workspaces": [
+        "497",
+        "468"
+      ]
+    },
+    "33880120355": {
+      "record": {
+        "controparte_name": "TRASPORTI VERDI DI NERI PAOLO",
+        "controparte_piva": "33880120355",
+        "controparte_cf": "NRIPLA75D22E512X",
+        "controparte_city": "BAGNOLO IN PIANO",
+        "controparte_address": "VIA SAN MARTINO 5",
+        "controparte_mail": "paolo.neri@example.com",
+        "controparte_pec": "paolo.neri@legalmail.it",
+        "controparte_phone": null,
+        "key": "33880120355"
+      },
+      "workspaces": [
+        "495",
+        "468"
+      ]
+    },
+    "55679440218": {
+      "record": {
+        "controparte_name": "SOCCORSO STRADALE VERDI S.A.S.",
+        "controparte_piva": "55679440218",
+        "controparte_cf": "0000005567944021",
+        "controparte_city": "MANTOVA",
+        "controparte_address": "VIA ROMA 77",
+        "controparte_mail": "info@soccorsoverdi.it",
+        "controparte_pec": null,
+        "controparte_phone": "0376123456",
+        "key": "55679440218"
+      },
+      "workspaces": [
+        "467"
+      ]
+    },
+    "72597350311": {
+      "record": {
+        "controparte_name": "BIANCHI MARCO",
+        "controparte_piva": "72597350311",
+        "controparte_cf": "BNCMRC61M09C336G",
+        "controparte_city": "REGGIO EMILIA",
+        "controparte_address": "VIA DEI TIGLI 10",
+        "controparte_mail": "marco.bianchi@example.com",
+        "controparte_pec": "marco.bianchi@legalmail.it",
+        "controparte_phone": "0522123456",
+        "key": "72597350311"
+      },
+      "workspaces": [
+        "490"
+      ]
+    },
+    "73428035519": {
+      "record": {
+        "controparte_name": "TECNO IMPIANTI SNC",
+        "controparte_piva": "73428035519",
+        "controparte_cf": "0000007342803551",
+        "controparte_city": "LUZZARA",
+        "controparte_address": "VIA INDUSTRIA 8",
+        "controparte_mail": "info@tecnoimpianti.it",
+        "controparte_pec": "tecnoimpianti@legalmail.it",
+        "controparte_phone": "0522223000",
+        "key": "73428035519"
+      },
+      "workspaces": [
+        "478"
+      ]
+    }
+  },
+  "final_users": {
+    "officina.rapida@example.com|CLDPRT53P09L831N": {
+      "record": {
+        "mail": "officina.rapida@example.com",
+        "name": "PAOLO",
+        "surname": "RICCI",
+        "phone": "",
+        "cf": "CLDPRT53P09L831N",
+        "metadata": "{\"sync\":\"auto\"}",
+        "controparti_keys": [
+          "10482950311"
+        ]
+      }
+    },
+    "info@alfaservice.com|BTTGNN54E11H612Y": {
+      "record": {
+        "mail": "info@alfaservice.com",
+        "name": "GIANNI",
+        "surname": "BERTONI",
+        "phone": "",
+        "cf": "BTTGNN54E11H612Y",
+        "metadata": "{\"sync\":\"auto\"}",
+        "controparti_keys": [
+          "20994450322"
+        ]
+      }
+    },
+    "paolo.neri@example.com|NRIPLA75D22E512X": {
+      "record": {
+        "mail": "paolo.neri@example.com",
+        "name": "PAOLO",
+        "surname": "NERI",
+        "phone": "3299988776",
+        "cf": "NRIPLA75D22E512X",
+        "metadata": "{\"sync\":\"auto\"}",
+        "controparti_keys": [
+          "33880120355"
+        ]
+      }
+    },
+    "info@soccorsoverdi.it|VRDMTR60A59D530A": {
+      "record": {
+        "mail": "info@soccorsoverdi.it",
+        "name": "MARIA TERESA",
+        "surname": "VERDI",
+        "phone": "",
+        "cf": "VRDMTR60A59D530A",
+        "metadata": "{\"sync\":\"auto\"}",
+        "controparti_keys": [
+          "55679440218"
+        ]
+      }
+    },
+    "info@tecnoimpianti.it|BNRLCU68L09L020Q": {
+      "record": {
+        "mail": "info@tecnoimpianti.it",
+        "name": "LUCA",
+        "surname": "BONARDI",
+        "phone": "",
+        "cf": "BNRLCU68L09L020Q",
+        "metadata": "{\"sync\":\"auto\"}",
+        "controparti_keys": [
+          "73428035519"
+        ]
+      }
+    }
+  }
+}

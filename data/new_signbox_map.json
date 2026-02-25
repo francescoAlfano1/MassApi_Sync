@@ -1,0 +1,39 @@
+{
+    "FirmaCna": {
+        "x": 54,
+        "y": 158,
+        "width": 200,
+        "height": 50,
+        "pag": 2
+    },
+    "FirmaCliente": [
+        {
+            "x": 340,
+            "y": 158,
+            "width": 200,
+            "height": 50,
+            "pag": 4
+        },
+        {
+            "x": 340,
+            "y": 236,
+            "width": 200,
+            "height": 50,
+            "pag": 1
+        },
+        {
+            "x": 340,
+            "y": 238,
+            "width": 200,
+            "height": 50,
+            "pag": 3
+        },
+        {
+            "x": 348,
+            "y": 236,
+            "width": 200,
+            "height": 50,
+            "pag": 5
+        }
+    ]
+}

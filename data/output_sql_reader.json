@@ -1,0 +1,197 @@
+{
+  "externals": [
+    {
+      "mail": "giulio.bernardi@example.com",
+      "name": "GIULIO",
+      "surname": "BERNARDI",
+      "phone": "3398821457",
+      "cf": "BRNGLI68E11H501T",
+      "controparti_keys": [
+        "91234560321"
+      ],
+      "workspace_id": 467,
+      "workspace_logico": "001",
+      "type": "external"
+    },
+    {
+      "mail": "andrea.rossi@example.com",
+      "name": "ANDREA",
+      "surname": "ROSSI",
+      "phone": "",
+      "cf": "RSSNDR73P04H223L",
+      "controparti_keys": [
+        "10482970358"
+      ],
+      "workspace_id": 467,
+      "workspace_logico": "001",
+      "type": "external"
+    },
+    {
+      "mail": "officina.monti@example.com",
+      "name": "GIUSEPPE",
+      "surname": "MONTI",
+      "phone": "",
+      "cf": "MNTGPP50M29H223C",
+      "controparti_keys": [
+        "00601230352"
+      ],
+      "workspace_id": 468,
+      "workspace_logico": "002",
+      "type": "external"
+    },
+    {
+      "mail": "carrozzeria.valeri@example.com",
+      "name": "VALERIO",
+      "surname": "VALERI",
+      "phone": "",
+      "cf": "VLRVLR73R27H223S",
+      "controparti_keys": [
+        "01702580359"
+      ],
+      "workspace_id": 467,
+      "workspace_logico": "001",
+      "type": "external"
+    },
+    {
+      "mail": "lili.hu@example.com",
+      "name": "LILI",
+      "surname": "ZHANG",
+      "phone": "3334412789",
+      "cf": "ZHNLLE88P49Z210F",
+      "controparti_keys": [
+        "01434390357"
+      ],
+      "workspace_id": 494,
+      "workspace_logico": "099",
+      "type": "external"
+    },
+    {
+      "mail": "info.pasquali@example.com",
+      "name": "LUCA",
+      "surname": "PASQUALI",
+      "phone": "3482219074",
+      "cf": "PSQLCU65R11I233D",
+      "controparti_keys": [
+        "01741190359"
+      ],
+      "workspace_id": 467,
+      "workspace_logico": "001",
+      "type": "external"
+    },
+    {
+      "mail": "stefano.prandi@example.com",
+      "name": "STEFANO",
+      "surname": "PRANDI",
+      "phone": "",
+      "cf": "PRNSTF66B05H223P",
+      "controparti_keys": [
+        "00765420353"
+      ],
+      "workspace_id": 494,
+      "workspace_logico": "099",
+      "type": "external"
+    },
+    {
+      "mail": "massimo.tonelli@example.com",
+      "name": "MASSIMO",
+      "surname": "TONELLI",
+      "phone": "3494497812",
+      "cf": "TNLMSM62P17H223Q",
+      "controparti_keys": [
+        "01356230359"
+      ],
+      "workspace_id": 467,
+      "workspace_logico": "001",
+      "type": "external"
+    }
+  ],
+  "naturals": [
+    {
+      "mail": "giovanni.rossi61@example.com",
+      "name": "GIOVANNI",
+      "surname": "ROSSI",
+      "phone": "3478454123",
+      "cf": "RSSGNN61H16A952L",
+      "workspace_id": 467,
+      "workspace_logico": "001",
+      "type": "natural"
+    },
+    {
+      "mail": "stefano.bianchi@example.com",
+      "name": "STEFANO",
+      "surname": "BIANCHI",
+      "phone": "337583901",
+      "cf": "BNCSFN64E05C218H",
+      "workspace_id": 467,
+      "workspace_logico": "001",
+      "type": "natural"
+    }
+  ],
+  "clients": [
+    {
+      "controparte_name": "AUTODEMOLIZIONI VERDI SNC DI ZHANG WEI E ZHANG LILI",
+      "controparte_piva": "01434390357",
+      "controparte_cf": "0000001434390357",
+      "controparte_city": "REGGIO NELL'EMILIA",
+      "controparte_address": "VIA GALILEI 2/B",
+      "controparte_mail": "info.autodemolizioni.verdi@example.com",
+      "controparte_pec": "autodemolizioniverdi@cert.cna.it",
+      "controparte_phone": "0522332001",
+      "workspace_id": 494,
+      "workspace_logico": "099",
+      "key": "01434390357"
+    },
+    {
+      "controparte_name": "BERNARDI S.R.L.",
+      "controparte_piva": "91234560321",
+      "controparte_cf": "0000009123456032",
+      "controparte_city": "REGGIO NELL'EMILIA",
+      "controparte_address": "VIA GIUSEPPE VERDI 10",
+      "controparte_mail": "amministrazione.bernardi@example.com",
+      "controparte_pec": "bernardi.srl@cert.cna.it",
+      "controparte_phone": "0522334100",
+      "workspace_id": 467,
+      "workspace_logico": "001",
+      "key": "91234560321"
+    },
+    {
+      "controparte_name": "MONTI & FIGLI SRL",
+      "controparte_piva": "00601230352",
+      "controparte_cf": "0000000601230352",
+      "controparte_city": "REGGIO NELL'EMILIA",
+      "controparte_address": "VIA TIRELLI 5",
+      "controparte_mail": "info.montifigli@example.com",
+      "controparte_pec": "montifigli@pcert.postecert.it",
+      "controparte_phone": "0522512000",
+      "workspace_id": 468,
+      "workspace_logico": "002",
+      "key": "00601230352"
+    },
+    {
+      "controparte_name": "CARROZZERIA VALERI S.R.L.",
+      "controparte_piva": "01702580359",
+      "controparte_cf": "0000001702580359",
+      "controparte_city": "REGGIO NELL'EMILIA",
+      "controparte_address": "VIA MONTI 7/A",
+      "controparte_mail": "carrozzeria.valeri@example.com",
+      "controparte_pec": "carrozzeriavaleri@cert.cna.it",
+      "controparte_phone": "0522557001",
+      "workspace_id": 467,
+      "workspace_logico": "001",
+      "key": "01702580359"
+    },
+    {
+      "controparte_name": "ROSSI GIOVANNI",
+      "controparte_piva": "00760290355",
+      "controparte_cf": "RSSGNN61H16A952L",
+      "controparte_city": "REGGIO NELL'EMILIA",
+      "controparte_address": "VIA PEZZAROSSA 3",
+      "controparte_mail": "giovanni.rossi61@example.com",
+      "controparte_pec": "giovanni.rossi@legalmail.it",
+      "controparte_phone": "0522334020",
+      "workspace_id": 467,
+      "workspace_logico": "001",
+      "key": "00760290355"
+    }
+  ]
+}
