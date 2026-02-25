@@ -1,0 +1,43 @@
+2026-02-24 13:11:10,556 | DEBUG | https://api-demo.example.com "PUT /Controparte/User HTTP/1.1" 204 0
+2026-02-24 13:11:11,051 | ERROR | >>> VERSIONE NUOVA DI load_remote_signers ATTIVA <<<
+2026-02-24 13:11:11,682 | DEBUG | https://api-demo.example.com "GET /Controparte/User HTTP/1.1" 200 None
+2026-02-24 13:11:12,531 | INFO  | [REMOTE SIGNERS] Trovati 5200 firmatari remoti (indicizzati per mail) e 5300 per CF.
+
+2026-02-24 13:11:12,532 | INFO  | [SYNC ALL] → Sync firmatario user123@example.com
+2026-02-24 13:11:12,533 | INFO  | [SYNC] Firmatario esistente user123@example.com (ID 5001)
+2026-02-24 13:11:12,533 | WARNING | [ASSOC] Controparte 'ABCDEF80A01H501Z' non trovata nei workspace. Ignoro.
+2026-02-24 13:11:12,856 | DEBUG | https://api-demo.example.com "POST /Controparte/2001/User/5001 HTTP/1.1" 409 0
+2026-02-24 13:11:13,364 | ERROR | [ASSOC] Errore associando user 5001 ↔ controparte 2001: nessuna risposta
+2026-02-24 13:11:13,365 | INFO  | [SYNC] PUT finale firmatario user123@example.com (ID 5001)
+
+2026-02-24 13:11:14,919 | INFO  | [REMOTE SIGNERS] Trovati 5200 firmatari remoti (indicizzati per mail) e 5300 per CF.
+2026-02-24 13:11:14,921 | INFO  | [SYNC ALL] → Sync firmatario newuser@example.com
+2026-02-24 13:11:14,921 | WARNING | [SYNC] Nessuna controparte valida trovata per newuser@example.com
+2026-02-24 13:11:14,922 | INFO  | [SYNC] POST creazione firmatario newuser@example.com
+2026-02-24 13:11:15,092 | DEBUG | https://api-demo.example.com "POST /Controparte/User HTTP/1.1" 201 None
+2026-02-24 13:11:15,582 | INFO  | [SYNC] Firmatario creato con ID 7001
+
+2026-02-24 13:11:17,929 | INFO  | [REMOTE SIGNERS] Trovati 5200 firmatari remoti (indicizzati per mail) e 5300 per CF.
+2026-02-24 13:11:17,930 | INFO  | [SYNC ALL] → Sync firmatario demo.user@example.com
+2026-02-24 13:11:17,931 | WARNING | [ASSOC] Controparte 'XYZABC75M11I158Z' non trovata nei workspace. Ignoro.
+2026-02-24 13:11:18,067 | DEBUG | https://api-demo.example.com "POST /Controparte/2100/User/4800 HTTP/1.1" 409 0
+2026-02-24 13:11:18,572 | ERROR | [ASSOC] Nessuna risposta associando demo.user@example.com ↔ 2100
+2026-02-24 13:11:18,573 | INFO  | [SYNC] PUT finale firmatario demo.user@example.com (ID 4800)
+
+2026-02-24 13:11:22,681 | INFO  | [REMOTE SIGNERS] Trovati 5200 firmatari remoti (indicizzati per mail) e 5300 per CF.
+2026-02-24 13:11:22,683 | INFO  | [SYNC ALL] → Sync firmatario sample.mail@example.com
+2026-02-24 13:11:22,684 | WARNING | [ASSOC] Controparte 'LMNOPQ89L19F257K' non trovata nei workspace. Ignoro.
+2026-02-24 13:11:22,834 | DEBUG | https://api-demo.example.com "POST /Controparte/3001/User/5100 HTTP/1.1" 409 0
+2026-02-24 13:11:23,345 | ERROR | [ASSOC] Nessuna risposta associando sample.mail@example.com ↔ 3001
+2026-02-24 13:11:23,346 | INFO  | [SYNC] PUT finale firmatario sample.mail@example.com (ID 5100)
+
+2026-02-24 13:11:30,301 | INFO  | [SYNC ALL] Sincronizzazione firmatari completata.
+2026-02-24 13:11:30,301 | INFO  | Firmatari sincronizzati: 3 elementi gestiti.
+2026-02-24 13:11:30,303 | INFO  | Sincronizzazione completata alle 2026-02-24 12:11:30 UTC
+
+2026-02-24 13:11:30,304 | INFO  | ===== RIEPILOGO FIRMATARI =====
+2026-02-24 13:11:30,304 | INFO  | Creati: 1
+2026-02-24 13:11:30,304 | INFO  |   + Creato: newuser@example.com (ID 7001)
+2026-02-24 13:11:30,305 | INFO  | Aggiornati: 2
+2026-02-24 13:11:30,305 | INFO  |   ~ Aggiornato: user123@example.com (ID 5001)
+2026-02-24 13:11:30,305 | INFO  |   ~ Aggiornato: demo.user@example.com (ID 4800)
