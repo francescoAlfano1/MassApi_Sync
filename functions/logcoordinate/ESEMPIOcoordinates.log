@@ -1,0 +1,27 @@
+Coordinate OCR generate per il file 18_11.pdf.pdf_Contratti.pdf_1763481579.9149423.pdf_Contratti.pdf_1763565260.422401.pdf:
+{
+    "@@firmacna@@": [
+        {
+            "x": 57,
+            "y": 733,
+            "width": 200,
+            "height": 50,
+            "pag": 2
+        },
+        {
+            "x": 57,
+            "y": 647,
+            "width": 200,
+            "height": 50,
+            "pag": 3
+        }
+    ],
+    "@@firmacliente@@": {
+        "x": 340,
+        "y": 647,
+        "width": 200,
+        "height": 50,
+        "pag": 3
+    },
+    "_pdf_source": "//-----/-----/Contractgeek/Import/099/-----/-----/Contratti.pdf"
+}
