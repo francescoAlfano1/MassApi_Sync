@@ -1,0 +1,21 @@
+project_root/
+│
+├── main_user_sync.py
+│
+├── functions/
+│   ├── __init__.py
+│   ├── setup.py
+│   ├── logger_setup.py
+│   ├── http_requests.py
+│   ├── sql_reader.py
+│   ├── client_manager.py
+│   ├── signer_manager.py
+│
+├── data/
+│   ├── config.json
+│   ├── db_config.json
+│   ├── workspace_map.json
+│   ├── last_user_sync.txt
+│   ├── log_Readsorgente_dati/
+│
+└── log/
